@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include frappe_biotime *.css
+recursive-include frappe_biotime *.csv
+recursive-include frappe_biotime *.html
+recursive-include frappe_biotime *.ico
+recursive-include frappe_biotime *.js
+recursive-include frappe_biotime *.json
+recursive-include frappe_biotime *.md
+recursive-include frappe_biotime *.png
+recursive-include frappe_biotime *.py
+recursive-include frappe_biotime *.svg
+recursive-include frappe_biotime *.txt
+recursive-exclude frappe_biotime *.pyc
